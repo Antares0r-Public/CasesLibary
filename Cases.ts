@@ -36,6 +36,10 @@ export class Case {
     }
   }
 
+  get winningOutcome(): any {
+    return this.winningOutcome;
+  }
+
   constructor(possibleOutcome: { name: string; percentage: number; model: any }[], range: number[]) {
     this.possibleOutcome = possibleOutcome;
     this.range = range;

@@ -33,6 +33,13 @@ var Case = /** @class */ (function () {
             }
         }
     };
+    Object.defineProperty(Case.prototype, "winningOutcome", {
+        get: function () {
+            return this.winningOutcome;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return Case;
 }());
 exports.Case = Case;
