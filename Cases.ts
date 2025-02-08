@@ -31,6 +31,7 @@ export class Case {
       }
 
       if (winningOutcome) {
+        this._winningOutcome = winningOutcome;
         console.log(`You've won: ${winningOutcome.name}`);
       }
     }
